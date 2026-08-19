@@ -8,6 +8,8 @@
 
   Application météo décisionnelle en français et en anglais.  
   A decision-first weather app available in French and English.
+
+  [# Français](#français) · [# English](#english)
 </div>
 
 ## Aperçu / Preview
