@@ -1,31 +1,31 @@
-# Soryva Weather
+<div align="center">
+  <img src="./public/soryva-logo.svg" alt="Soryva Weather logo" width="420" />
 
-**Soryva Weather** is a decision-first weather app that helps you know whether now is a good moment for a real activity.
+  # Soryva Weather
 
-Instead of only showing raw weather data, Soryva combines the next 24 hours of forecast with activity-specific rules and returns a clear recommendation.
+  **Weather for what you actually do.**
+
+  A decision-first weather app that helps you know whether now is the right moment for an activity.
+</div>
 
 ## Preview
 
-### Français
+> The app is available in French and English.
 
-![Soryva Weather French preview](public/screenshot-fr.png)
-
-### English
-
-![Soryva Weather English preview](public/screenshot-en.png)
-
-> Add the two screenshots to `public/screenshot-fr.png` and `public/screenshot-en.png` so they appear on GitHub.
+| Français | English |
+| --- | --- |
+| <img src="./public/screenshot-fr.png" alt="Aperçu Soryva Weather en français" width="420" /> | <img src="./public/screenshot-en.png" alt="Soryva Weather English preview" width="420" /> |
 
 ## Features
 
 - Activity-based weather recommendations
-- City search with Open-Meteo geocoding
-- 24-hour forecast scoring
+- City search powered by Open-Meteo geocoding
+- 24-hour weather scoring
 - Best time window detection
-- Clear statuses: Go, Maybe, No
-- Recommendation explanations
+- Clear recommendation statuses: Go, Maybe, No
+- Explanation for each recommendation
 - Hourly timeline
-- Shareable result text
+- Shareable recommendation text
 - French and English interface
 - Responsive polished UI
 - No account, database, paid API key, or server secret required
@@ -47,14 +47,14 @@ Each activity has its own weather rules for temperature, rain, wind, humidity, c
 
 ## Tech stack
 
-- [Next.js](https://nextjs.org/) App Router
-- [React](https://react.dev/)
-- [TypeScript](https://www.typescriptlang.org/)
-- [Tailwind CSS](https://tailwindcss.com/)
-- [next-intl](https://next-intl.dev/)
-- [Lucide React](https://lucide.dev/)
-- [Open-Meteo Forecast API](https://open-meteo.com/)
-- [Open-Meteo Geocoding API](https://open-meteo.com/)
+- Next.js App Router
+- React
+- TypeScript
+- Tailwind CSS
+- next-intl
+- Lucide React
+- Open-Meteo Forecast API
+- Open-Meteo Geocoding API
 
 ## Getting started
 
@@ -70,7 +70,7 @@ Run the development server:
 npm run dev
 ```
 
-Open:
+Open the app:
 
 ```text
 http://localhost:3000
@@ -108,7 +108,7 @@ messages/en.json
 messages/fr.json
 ```
 
-Locale routes are handled through the Next.js App Router under:
+Localized routes are handled through the Next.js App Router:
 
 ```text
 app/[locale]/
@@ -122,7 +122,7 @@ Activities are defined in:
 data/activities.ts
 ```
 
-The scoring engine evaluates every forecast hour from 0 to 100 using activity-specific rules:
+The scoring engine evaluates each forecast hour from 0 to 100 using activity-specific rules:
 
 - temperature comfort
 - rain probability
