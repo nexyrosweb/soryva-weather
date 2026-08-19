@@ -1,0 +1,175 @@
+{
+  "ui": {
+    "header": {
+      "title": "Soryva",
+      "tagline": "Weather for what you actually do.",
+      "description": "Pick an activity and a city. Soryva scores the next 24 hours and tells you if now is a good moment."
+    },
+    "helperText": {
+      "allMissing": "Choose an activity and search for a city to get your recommendation.",
+      "activityMissing": "Choose an activity to see whether the weather is right for it.",
+      "cityMissing": "Search for a city to get a local recommendation."
+    },
+    "errors": {
+      "noWeatherData": "No weather data is available for this location.",
+      "weatherUnavailable": "Weather forecast is temporarily unavailable."
+    },
+    "citySearch": {
+      "label": "WHERE?",
+      "title": "Where?",
+      "placeholder": "Search for a city",
+      "searching": "Searching...",
+      "noCityFound": "No cities found",
+      "citySearchUnavailable": "City search is temporarily unavailable"
+    },
+    "activitySelector": {
+      "label": "WHAT?",
+      "title": "What do you want to do today?"
+    },
+    "skeleton": {
+      "loading": "Loading..."
+    },
+    "recommendationCard": {
+      "bestTime": "Best time",
+      "averageScore": "Average score"
+    },
+    "scoreBadge": {
+      "go": "GO",
+      "maybe": "MAYBE",
+      "no": "NO"
+    },
+    "scoreReasons": {
+      "title": "Why?"
+    },
+    "weatherStats": {
+      "feels": "Feels",
+      "rain": "Rain",
+      "wind": "Wind"
+    },
+    "hourlyTimeline": {
+      "title": "Next 24 hours",
+      "eyebrow": "Forecast"
+    },
+    "shareButton": {
+      "share": "Share",
+      "copied": "Copied!",
+      "shared": "Shared!",
+      "unavailable": "Unavailable"
+    },
+    "share": {
+      "bestTime": "Best time",
+      "rain": "rain",
+      "wind": "wind"
+    },
+    "format": {
+      "citySeparator": ", ",
+      "temperature": "{value}°",
+      "percent": "{value}%",
+      "wind": "{value} km/h",
+      "score": "{value}/100"
+    },
+    "languageSelector": {
+      "label": "Language"
+    },
+    "heroSteps": {
+      "choose": "Choose",
+      "search": "Search",
+      "decide": "Decide"
+    },
+    "emptyState": {
+      "title": "Ready when you are"
+    },
+    "selection": {
+      "title": "Your selection"
+    }
+  },
+  "activity": {
+    "cycling": {
+      "name": "Cycling",
+      "description": "Go for a bike ride"
+    },
+    "running": {
+      "name": "Running",
+      "description": "Go for a run"
+    },
+    "bbq": {
+      "name": "BBQ",
+      "description": "Have a barbecue"
+    },
+    "dryLaundry": {
+      "name": "Dry laundry",
+      "description": "Hang out your laundry"
+    },
+    "washCar": {
+      "name": "Wash car",
+      "description": "Wash your car"
+    },
+    "terrace": {
+      "name": "Terrace",
+      "description": "Enjoy your terrace"
+    },
+    "picnic": {
+      "name": "Picnic",
+      "description": "Have a picnic"
+    },
+    "stargazing": {
+      "name": "Stargazing",
+      "description": "Go stargazing"
+    }
+  },
+  "weather": {
+    "0": "Clear sky",
+    "1": "Mainly clear",
+    "2": "Partly cloudy",
+    "3": "Overcast",
+    "45": "Fog",
+    "48": "Depositing rime fog",
+    "51": "Light drizzle",
+    "53": "Moderate drizzle",
+    "55": "Dense drizzle",
+    "56": "Light freezing drizzle",
+    "57": "Dense freezing drizzle",
+    "61": "Slight rain",
+    "63": "Moderate rain",
+    "65": "Heavy rain",
+    "66": "Light freezing rain",
+    "67": "Heavy freezing rain",
+    "71": "Slight snow fall",
+    "73": "Moderate snow fall",
+    "75": "Heavy snow fall",
+    "77": "Snow grains",
+    "80": "Slight rain showers",
+    "81": "Moderate rain showers",
+    "82": "Violent rain showers",
+    "85": "Slight snow showers",
+    "86": "Heavy snow showers",
+    "95": "Thunderstorm",
+    "96": "Thunderstorm with slight hail",
+    "99": "Thunderstorm with heavy hail",
+    "unknownConditions": "Unknown weather conditions"
+  },
+  "scoring": {
+    "comfortableTemperature": "Comfortable temperature",
+    "temperatureAcceptable": "Temperature is acceptable",
+    "temperatureOutsideRange": "Temperature {temperature}° is outside the ideal range",
+    "lowRainChance": "Very low chance of rain",
+    "moderateRainChance": "Moderate chance of rain ({rainProbability}%)",
+    "highRainChance": "High chance of rain ({rainProbability}%)",
+    "lightWind": "Light wind",
+    "noticeableWind": "Noticeable wind",
+    "strongWind": "Strong wind",
+    "comfortableHumidity": "Comfortable humidity",
+    "uncomfortableHumidity": "Uncomfortable humidity",
+    "thunderstormsExpected": "Thunderstorms expected",
+    "rainExpected": "{condition} expected",
+    "snowExpected": "{condition} expected",
+    "highCloudCover": "Cloud cover is too high",
+    "moderateCloudCover": "Moderate cloud cover",
+    "highUV": "High UV index",
+    "wetGround": "Ground will be wet",
+    "unsafeWeatherCap": "Weather conditions are unsafe",
+    "perfectConditions": "Perfect conditions for {activity}.",
+    "possibleConditions": "Possible, but conditions may not be ideal for {activity}.",
+    "notRecommended": "Not recommended for {activity} right now."
+  }
+}

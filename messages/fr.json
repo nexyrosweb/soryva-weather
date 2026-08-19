@@ -1,0 +1,175 @@
+{
+  "ui": {
+    "header": {
+      "title": "Soryva",
+      "tagline": "Météo pour ce que vous faites vraiment.",
+      "description": "Choisissez une activité et une ville. Soryva évalue les prochaines 24 heures et vous dit si c'est le bon moment."
+    },
+    "helperText": {
+      "allMissing": "Choisissez une activité et recherchez une ville pour obtenir votre recommandation.",
+      "activityMissing": "Choisissez une activité pour savoir si la météo est adaptée.",
+      "cityMissing": "Recherchez une ville pour obtenir une recommandation locale."
+    },
+    "errors": {
+      "noWeatherData": "Aucune donnée météo n'est disponible pour cette localisation.",
+      "weatherUnavailable": "Les prévisions météo sont temporairement indisponibles."
+    },
+    "citySearch": {
+      "label": "OÙ?",
+      "title": "Où?",
+      "placeholder": "Rechercher une ville",
+      "searching": "Recherche en cours...",
+      "noCityFound": "Aucune ville trouvée",
+      "citySearchUnavailable": "La recherche de ville est temporairement indisponible"
+    },
+    "activitySelector": {
+      "label": "QUOI?",
+      "title": "Que voulez-vous faire aujourd'hui?"
+    },
+    "skeleton": {
+      "loading": "Chargement..."
+    },
+    "recommendationCard": {
+      "bestTime": "Meilleur moment",
+      "averageScore": "Score moyen"
+    },
+    "scoreBadge": {
+      "go": "OUI",
+      "maybe": "PEUT-ÊTRE",
+      "no": "NON"
+    },
+    "scoreReasons": {
+      "title": "Pourquoi?"
+    },
+    "weatherStats": {
+      "feels": "Ressenti",
+      "rain": "Pluie",
+      "wind": "Vent"
+    },
+    "hourlyTimeline": {
+      "title": "Prochaines 24 heures",
+      "eyebrow": "Prévision"
+    },
+    "shareButton": {
+      "share": "Partager",
+      "copied": "Copié!",
+      "shared": "Partagé!",
+      "unavailable": "Indisponible"
+    },
+    "share": {
+      "bestTime": "Meilleur moment",
+      "rain": "pluie",
+      "wind": "vent"
+    },
+    "format": {
+      "citySeparator": ", ",
+      "temperature": "{value}°",
+      "percent": "{value}%",
+      "wind": "{value} km/h",
+      "score": "{value}/100"
+    },
+    "languageSelector": {
+      "label": "Langue"
+    },
+    "heroSteps": {
+      "choose": "Choisir",
+      "search": "Rechercher",
+      "decide": "Décider"
+    },
+    "emptyState": {
+      "title": "Prêt quand vous l’êtes"
+    },
+    "selection": {
+      "title": "Votre sélection"
+    }
+  },
+  "activity": {
+    "cycling": {
+      "name": "Cyclisme",
+      "description": "Faire une balade à vélo"
+    },
+    "running": {
+      "name": "Course",
+      "description": "Faire une course"
+    },
+    "bbq": {
+      "name": "BBQ",
+      "description": "Faire une barbecue"
+    },
+    "dryLaundry": {
+      "name": "Linge",
+      "description": "Accrocher votre linge"
+    },
+    "washCar": {
+      "name": "Voiture",
+      "description": "Laver votre voiture"
+    },
+    "terrace": {
+      "name": "Terrasse",
+      "description": "Profiter de votre terrasse"
+    },
+    "picnic": {
+      "name": "Pique-nique",
+      "description": "Faire un pique-nique"
+    },
+    "stargazing": {
+      "name": "Observation",
+      "description": "Faire de l'observation astronomique"
+    }
+  },
+  "weather": {
+    "0": "Ciel dégagé",
+    "1": "Principalement dégagé",
+    "2": "Partiellement nuageux",
+    "3": "Couvert",
+    "45": "Brouillard",
+    "48": "Brouillard givrant",
+    "51": "Légère bruine",
+    "53": "Bruine modérée",
+    "55": "Bruine dense",
+    "56": "Légère bruine verglaçante",
+    "57": "Bruine verglaçante dense",
+    "61": "Légère pluie",
+    "63": "Pluie modérée",
+    "65": "Pluie forte",
+    "66": "Légère pluie verglaçante",
+    "67": "Pluie verglaçante forte",
+    "71": "Légère chute de neige",
+    "73": "Chute de neige modérée",
+    "75": "Chute de neige forte",
+    "77": "Grains de neige",
+    "80": "Légères averses de pluie",
+    "81": "Averses de pluie modérées",
+    "82": "Averses de pluie violentes",
+    "85": "Légères averses de neige",
+    "86": "Averses de neige fortes",
+    "95": "Orage",
+    "96": "Orage avec légère grêle",
+    "99": "Orage avec forte grêle",
+    "unknownConditions": "Conditions météo inconnues"
+  },
+  "scoring": {
+    "comfortableTemperature": "Température confortable",
+    "temperatureAcceptable": "Température acceptable",
+    "temperatureOutsideRange": "La température {temperature}° est en dehors de la plage idéale",
+    "lowRainChance": "Faible chance de pluie",
+    "moderateRainChance": "Chance modérée de pluie ({rainProbability}%)",
+    "highRainChance": "Haute chance de pluie ({rainProbability}%)",
+    "lightWind": "Vent léger",
+    "noticeableWind": "Vent notable",
+    "strongWind": "Vent fort",
+    "comfortableHumidity": "Humidité confortable",
+    "uncomfortableHumidity": "Humidité inconfortable",
+    "thunderstormsExpected": "Orages prévus",
+    "rainExpected": "{condition} prévue",
+    "snowExpected": "{condition} prévue",
+    "highCloudCover": "Couverture nuageuse trop élevée",
+    "moderateCloudCover": "Couverture nuageuse modérée",
+    "highUV": "Indice UV élevé",
+    "wetGround": "Le sol sera humide",
+    "unsafeWeatherCap": "Les conditions météorologiques sont dangereuses",
+    "perfectConditions": "Conditions parfaites pour {activity}.",
+    "possibleConditions": "Possible, mais les conditions peuvent ne pas être idéales pour {activity}.",
+    "notRecommended": "Non recommandé pour {activity} en ce moment."
+  }
+}
